@@ -21,3 +21,13 @@ Steps on event loop:
 5. manage the close events
 
 Stateless -> calls can be made independently and contains all the necessary data to be successful (only in client side), only use HTTP request like POST GET etc.
+
+rate limit API
+
+Security HTTP Headers using Helmet()
+
+Data Sanitization --> for database operator injection hacking
+
+lock row in database for multi user system (rat race condition)
+
+Centralise folder for class error
